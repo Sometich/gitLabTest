@@ -7,11 +7,11 @@ default:
 stages:
   - test
 
-Tests with allure:
+test allure:
   stage: test
   script:
-  - ./gradlew clean test
-  - ./gradlew allureReport
+  - './gradlew clean test'
+  - './gradlew allureReport'
   artifacts:
     paths:
     - build/reports/allure-report/allureReport/*
