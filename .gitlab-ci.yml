@@ -12,6 +12,6 @@ Tests with allure:
   script:
   - ./gradlew clean test
   - ./gradlew allureReport
-artifacts:
-  paths:
+  artifacts:
+    paths:
     - build/reports/allure-report/allureReport/*
