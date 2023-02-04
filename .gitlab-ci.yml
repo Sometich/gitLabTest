@@ -1,11 +1,11 @@
 image: gradle:alpine
 
-default:
-  tags:
-    - shellocal
+#default:
+  #tags:
+   # - shellocal
 
-stages:
-  - test
+#stages:
+ # - test
 
 test:
   stage: test
