@@ -10,8 +10,8 @@ stages:
 Tests with allure:
   stage: test
   script:
-    - ./gradlew clean test
-    - ./gradlew allureReport
+  - ./gradlew clean test
+  - ./gradlew allureReport
 artifacts:
   paths:
     - build/reports/allure-report/allureReport/*
