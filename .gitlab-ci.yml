@@ -7,7 +7,7 @@ default:
 stages:
   - test
 
-test allure:
+test:
   stage: test
   script:
   - './gradlew clean test'
